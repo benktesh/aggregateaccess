@@ -49,29 +49,11 @@ namespace CombineTables
         }
         static void Main(string[] args)
         {
-            //Tokenize args
-            //TODO Create Help Structure
-            //for (int i = 0; i < args.Length; i++)
-            //{
-            //    if (args[i].Equals("h", StringComparison.CurrentCultureIgnoreCase) ||
-            //        args[i].Equals("help", StringComparison.CurrentCultureIgnoreCase))
-            //    {
-
-
-
-            //    }
-
-            //}
-
-            Run();
-            return;
             using (StreamReader r = new StreamReader("readme.txt"))
             {
                 Console.WriteLine(r.ReadToEnd());
             }
 
-            
-            
             Console.WriteLine("Press <Enter> to continue... or any other key to exit");
             var command = Console.ReadKey();
             if (command.Key == ConsoleKey.Enter)

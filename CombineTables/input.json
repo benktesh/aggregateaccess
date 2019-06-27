@@ -1,0 +1,15 @@
+﻿{
+  "combinedOutputFileName": "C:\\temp\\SIG\\FinalOut\\PC286_FVS_output.accdb",
+  "tableNames": [
+    "FVS_Cases",
+    "FVS_Carbon",
+    "FVS_Hrv_Carbon",
+    "FVS_Summary"
+  ],
+  "dataBases": [
+    "C:\\temp\\SIG\\M0-Out\\PC286_FVS_output.accdb",
+    "C:\\temp\\SIG\\M1-Out\\PC286_FVS_output.accdb",
+    "C:\\temp\\SIG\\M2-Out\\PC286_FVS_output.accdb",
+    "C:\\temp\\SIG\\M3-Out\\PC286_FVS_output.accdb"
+  ]
+}

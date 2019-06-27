@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregate", "Aggregate\Aggregate.csproj", "{4825FC94-F5CC-4235-8E9B-E3373965CCBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aggregate", "Aggregate\Aggregate.csproj", "{4825FC94-F5CC-4235-8E9B-E3373965CCBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombineTables", "CombineTables\CombineTables.csproj", "{C50DA682-B0BD-4487-91EC-00302785FD96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4825FC94-F5CC-4235-8E9B-E3373965CCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4825FC94-F5CC-4235-8E9B-E3373965CCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4825FC94-F5CC-4235-8E9B-E3373965CCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50DA682-B0BD-4487-91EC-00302785FD96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50DA682-B0BD-4487-91EC-00302785FD96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50DA682-B0BD-4487-91EC-00302785FD96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50DA682-B0BD-4487-91EC-00302785FD96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
